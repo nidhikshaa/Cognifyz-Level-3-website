@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Web Developer Internship Opportunities at Cognifyz Technologies - Level 3 Showcase featuring an interactive image gallery, automatic slideshow, and complete internship landing page.">
+  <meta name="keywords" content="Cognifyz Technologies, Web Development Internship, Frontend Developer, HTML5, CSS3, JavaScript, Image Gallery, Slideshow">
+  <meta name="author" content="Cognifyz Technologies Intern">
+  <title>Cognifyz Technologies | Web Developer Internship - Level 3</title>
+  
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%230066FF'%3E%3Cpath d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'/%3E%3C/svg%3E">
+  
+  <!-- Google Fonts: Inter & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER & NAVIGATION ==================== -->
+  <header class="site-header" id="header">
+    <div class="container header-container">
+      <a href="#hero" class="brand-logo" aria-label="Cognifyz Technologies Home">
+        <img src="assets/images/cognifyz-logo-transparent.png" alt="Cognifyz - Where Data Meets Intelligence" class="brand-logo-img">
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="main-nav" id="mainNav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#overview" class="nav-link">Overview</a></li>
+          <li class="nav-item"><a href="#highlights" class="nav-link">Highlights</a></li>
+          <li class="nav-item"><a href="#qualifications" class="nav-link">Qualifications</a></li>
+          <li class="nav-item"><a href="#slideshow" class="nav-link">Slideshow <span class="badge-mini">Task 1</span></a></li>
+          <li class="nav-item"><a href="#gallery" class="nav-link">Gallery <span class="badge-mini">Task 1</span></a></li>
+          <li class="nav-item"><a href="#apply" class="nav-link">Apply</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Navigation Action & Mobile Menu Toggle -->
+      <div class="header-actions">
+        <a href="#apply" class="btn btn-primary btn-sm header-cta">Apply Now</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mainNav">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer Overlay -->
+  <div class="mobile-drawer-backdrop" id="mobileBackdrop"></div>
+
+  <main id="main-content">
+
+    <!-- ==================== HERO SECTION (TASK 2) ==================== -->
+    <section class="hero-section" id="hero">
+      <div class="hero-bg-glow"></div>
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="pulse-dot"></span>
+            <span>Cognifyz Technologies &bull; Level 3 Internship Showcase</span>
+          </div>
+
+          <!-- Headline Required by Task 2 -->
+          <h1 class="hero-headline">
+            Web Developer Internship Opportunities at <span class="text-gradient">Cognifyz Technologies</span>
+          </h1>
+
+          <!-- Introduction Required by Task 2 -->
+          <p class="hero-description">
+            Accelerate your tech career through a structured, <strong>4-week remote web development internship</strong>. 
+            Gain real-world experience, build responsive production-ready web applications, receive dedicated mentorship, 
+            and earn an industry-recognized certificate to jumpstart your career.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#apply" class="btn btn-primary btn-lg">
+              <span>Apply for Internship</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#slideshow" class="btn btn-secondary btn-lg">
+              <span>View Level 3 Tasks</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polygon points="10 8 16 12 10 16 10 8"></polygon>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Quick Metrics / Trust Indicators -->
+          <div class="hero-metrics">
+            <div class="metric-item">
+              <span class="metric-number">4 Weeks</span>
+              <span class="metric-label">Structured Duration</span>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-item">
+              <span class="metric-number">100%</span>
+              <span class="metric-label">Remote & Flexible</span>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-item">
+              <span class="metric-number">3 Levels</span>
+              <span class="metric-label">Hands-on Tasks</span>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-item">
+              <span class="metric-number">Verified</span>
+              <span class="metric-label">Certificate & LOR</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Interactive Preview Card -->
+        <div class="hero-card-wrapper">
+          <div class="hero-card">
+            <div class="card-header-bar">
+              <div class="window-dots">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <span class="window-title">cognifyz-internship-level3.js</span>
+              <span class="window-badge">HTML5 / CSS3 / JS</span>
+            </div>
+            <div class="card-code-preview">
+              <div class="code-line"><span class="c-keyword">const</span> <span class="c-variable">internship</span> = {</div>
+              <div class="code-line indent"><span class="c-prop">company</span>: <span class="c-string">'Cognifyz Technologies'</span>,</div>
+              <div class="code-line indent"><span class="c-prop">role</span>: <span class="c-string">'Web Developer Intern'</span>,</div>
+              <div class="code-line indent"><span class="c-prop">programLevel</span>: <span class="c-number">3</span>,</div>
+              <div class="code-line indent"><span class="c-prop">skills</span>: [<span class="c-string">'HTML5'</span>, <span class="c-string">'CSS3'</span>, <span class="c-string">'Vanilla JS'</span>],</div>
+              <div class="code-line indent"><span class="c-prop">tasks</span>: [</div>
+              <div class="code-line indent-2"><span class="c-string">'Interactive Image Gallery'</span>,</div>
+              <div class="code-line indent-2"><span class="c-string">'Automatic Slideshow'</span>,</div>
+              <div class="code-line indent-2"><span class="c-string">'Professional Landing Page'</span></div>
+              <div class="code-line indent">],</div>
+              <div class="code-line indent"><span class="c-prop">outcome</span>: <span class="c-string">'Industry Ready Experience'</span></div>
+              <div class="code-line">};</div>
+              <div class="code-line"><span class="c-func">console</span>.<span class="c-method">log</span>(<span class="c-string">'Welcome to Level 3!'</span>);</div>
+            </div>
+            <div class="hero-card-footer">
+              <div class="status-indicator">
+                <span class="status-dot"></span>
+                <span>All Tasks Verified &amp; Ready</span>
+              </div>
+              <a href="#gallery" class="view-gallery-link">Explore Gallery &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== OVERVIEW SECTION (TASK 2) ==================== -->
+    <section class="section overview-section" id="overview">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag">Program Overview</div>
+          <h2 class="section-title">Designed for Aspiring Web Developers</h2>
+          <p class="section-subtitle">
+            Cognifyz Technologies provides a dynamic platform that transforms classroom concepts into 
+            industry-grade engineering capabilities through practical execution.
+          </p>
+        </div>
+
+        <div class="overview-grid">
+          <div class="overview-card">
+            <div class="overview-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+              </svg>
+            </div>
+            <h3 class="overview-card-title">Structured Curriculum</h3>
+            <p class="overview-card-desc">
+              Progress through carefully curated 3-level tasks that build from fundamental page building to advanced interactivity and responsive modern landing pages.
+            </p>
+            <ul class="overview-features">
+              <li>Level 1: Semantic Markup &amp; Core Styling</li>
+              <li>Level 2: Responsive Layouts &amp; Interactive DOM</li>
+              <li>Level 3: Image Manipulation &amp; Showcase Page</li>
+            </ul>
+          </div>
+
+          <div class="overview-card active-plan">
+            <div class="popular-ribbon">Active Focus</div>
+            <div class="overview-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </div>
+            <h3 class="overview-card-title">Duration &amp; Flexibility</h3>
+            <p class="overview-card-desc">
+              Designed as a <strong>4-week (1-month)</strong> flexible virtual internship, allowing university students and recent graduates to balance academics while building a strong resume.
+            </p>
+            <ul class="overview-features">
+              <li>100% Remote / Work from Anywhere</li>
+              <li>Flexible weekly task submissions</li>
+              <li>Self-paced practical coding assignments</li>
+            </ul>
+          </div>
+
+          <div class="overview-card">
+            <div class="overview-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+            </div>
+            <h3 class="overview-card-title">Career Acceleration</h3>
+            <p class="overview-card-desc">
+              Receive a verifiable Certificate of Completion, Letter of Recommendation (based on performance), and code review feedback to elevate your portfolio.
+            </p>
+            <ul class="overview-features">
+              <li>Verifiable digital credentials</li>
+              <li>LinkedIn badge &amp; portfolio showcase</li>
+              <li>Letter of Recommendation for top performers</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== HIGHLIGHTS SECTION (TASK 2) ==================== -->
+    <section class="section highlights-section" id="highlights">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag">Key Benefits</div>
+          <h2 class="section-title">Internship Highlights &amp; Advantages</h2>
+          <p class="section-subtitle">
+            Discover what sets the Cognifyz Technologies Web Development Internship apart and how it prepares you for success.
+          </p>
+        </div>
+
+        <div class="highlights-grid">
+          <!-- Highlight 1: Real-world project experience -->
+          <div class="highlight-card">
+            <div class="highlight-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <h3 class="highlight-title">Real-World Project Experience</h3>
+            <p class="highlight-desc">
+              Move beyond basic tutorials. Build responsive, user-friendly, and functional web applications that solve real user needs and adhere to industry standards.
+            </p>
+            <span class="highlight-badge">Hands-On Practice</span>
+          </div>
+
+          <!-- Highlight 2: Mentorship -->
+          <div class="highlight-card">
+            <div class="highlight-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h3 class="highlight-title">Dedicated Mentorship &amp; Guidance</h3>
+            <p class="highlight-desc">
+              Get constructive feedback and clear instructions. Learn professional code structure, naming conventions, optimization tips, and debugging strategies.
+            </p>
+            <span class="highlight-badge">Expert Support</span>
+          </div>
+
+          <!-- Highlight 3: Practical learning -->
+          <div class="highlight-card">
+            <div class="highlight-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <h3 class="highlight-title">Practical, Problem-Driven Learning</h3>
+            <p class="highlight-desc">
+              Every level challenges you with tangible outcomes: from crafting clean HTML5 layouts to manipulating dynamic DOM events and implementing responsive animations.
+            </p>
+            <span class="highlight-badge">Learn by Doing</span>
+          </div>
+
+          <!-- Highlight 4: Skill development -->
+          <div class="highlight-card">
+            <div class="highlight-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+              </svg>
+            </div>
+            <h3 class="highlight-title">Core Skill Development</h3>
+            <p class="highlight-desc">
+              Master the foundational trio of the web: modern semantic HTML5, responsive CSS3 (Flexbox &amp; Grid), and performant vanilla JavaScript without framework dependencies.
+            </p>
+            <span class="highlight-badge">Industry Readiness</span>
+          </div>
+
+          <!-- Highlight 5: Portfolio enhancement -->
+          <div class="highlight-card">
+            <div class="highlight-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+            </div>
+            <h3 class="highlight-title">Deployable Portfolio Showcase</h3>
+            <p class="highlight-desc">
+              Compile your completed projects into a public GitHub repository and live showcase page that recruiters and interviewers can interact with directly.
+            </p>
+            <span class="highlight-badge">Resume Booster</span>
+          </div>
+
+          <!-- Highlight 6: Recognition & Certification -->
+          <div class="highlight-card">
+            <div class="highlight-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="8" r="7"></circle>
+                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+              </svg>
+            </div>
+            <h3 class="highlight-title">Verified Certification &amp; LOR</h3>
+            <p class="highlight-desc">
+              Earn an official Certificate of Completion backed by Cognifyz Technologies, with top performers qualifying for an exclusive Letter of Recommendation (LOR).
+            </p>
+            <span class="highlight-badge">Official Recognition</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== QUALIFICATIONS SECTION (TASK 2) ==================== -->
+    <section class="section qualifications-section" id="qualifications">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag">Candidate Profile</div>
+          <h2 class="section-title">Internship Qualifications &amp; Skills</h2>
+          <p class="section-subtitle">
+            We value passion, curiosity, and fundamental readiness. Check the skills and mindset we look for in our interns.
+          </p>
+        </div>
+
+        <div class="qualifications-wrapper">
+          <!-- Required Technical Skills -->
+          <div class="qual-card">
+            <div class="qual-card-header">
+              <div class="qual-icon technical">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h3 class="qual-card-title">Technical Competencies</h3>
+                <p class="qual-card-sub">Core frontend technologies needed for success</p>
+              </div>
+            </div>
+
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name"><strong>HTML5:</strong> Semantic elements, forms, accessibility &amp; document structure</span>
+                  <span class="skill-level">Essential</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" style="width: 95%;"></div></div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name"><strong>CSS3:</strong> Styling, Flexbox, Grid, transitions, animations &amp; responsive media queries</span>
+                  <span class="skill-level">Essential</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" style="width: 90%;"></div></div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name"><strong>Vanilla JavaScript:</strong> DOM manipulation, event listeners, ES6 syntax &amp; timers</span>
+                  <span class="skill-level">Essential</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" style="width: 85%;"></div></div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name"><strong>Developer Tools:</strong> Browser DevTools, Git basics, code formatting &amp; debugging</span>
+                  <span class="skill-level">Recommended</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" style="width: 80%;"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Mindset & Professional Qualities -->
+          <div class="qual-card">
+            <div class="qual-card-header">
+              <div class="qual-icon mindset">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"></path>
+                  <path d="M12 6v6l4 2"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="qual-card-title">Mindset &amp; Soft Skills</h3>
+                <p class="qual-card-sub">Qualities that make an exceptional intern</p>
+              </div>
+            </div>
+
+            <div class="traits-grid">
+              <div class="trait-box">
+                <div class="trait-check">&#10003;</div>
+                <div class="trait-content">
+                  <h4>Analytical &amp; Problem-Solving</h4>
+                  <p>Ability to break down complex tasks, troubleshoot bugs logically, and research solutions independently.</p>
+                </div>
+              </div>
+
+              <div class="trait-box">
+                <div class="trait-check">&#10003;</div>
+                <div class="trait-content">
+                  <h4>Willingness to Learn</h4>
+                  <p>Openness to constructive feedback, adopting best practices, and continuously upgrading your coding standards.</p>
+                </div>
+              </div>
+
+              <div class="trait-box">
+                <div class="trait-check">&#10003;</div>
+                <div class="trait-content">
+                  <h4>Attention to Detail</h4>
+                  <p>Care for clean code indentation, intuitive user interfaces, fluid transitions, and mobile responsiveness.</p>
+                </div>
+              </div>
+
+              <div class="trait-box">
+                <div class="trait-check">&#10003;</div>
+                <div class="trait-content">
+                  <h4>Time Management</h4>
+                  <p>Consistency in meeting weekly milestone deadlines while maintaining well-documented codebases.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Readiness Checker -->
+        <div class="readiness-box">
+          <div class="readiness-content">
+            <h3>Interactive Internship Readiness Check</h3>
+            <p>Select the skills you already know to evaluate your readiness for the Cognifyz Web Development Internship:</p>
+            <div class="checklist-items" id="readinessChecklist">
+              <label class="check-label"><input type="checkbox" class="readiness-check" checked data-score="25"> HTML5 Basics</label>
+              <label class="check-label"><input type="checkbox" class="readiness-check" checked data-score="25"> CSS3 Styling &amp; Flexbox</label>
+              <label class="check-label"><input type="checkbox" class="readiness-check" checked data-score="25"> Vanilla JS DOM</label>
+              <label class="check-label"><input type="checkbox" class="readiness-check" checked data-score="25"> Problem Solving Attitude</label>
+            </div>
+          </div>
+          <div class="readiness-gauge">
+            <div class="gauge-score" id="gaugeScore">100%</div>
+            <div class="gauge-status" id="gaugeStatus">Fully Ready to Apply!</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TASK 1: AUTOMATIC SLIDESHOW ==================== -->
+    <section class="section slideshow-section" id="slideshow">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag task-tag">Task 1: Image Manipulation</div>
+          <h2 class="section-title">Automatic Image Slideshow</h2>
+          <p class="section-subtitle">
+            An automated image slideshow built with clean HTML5, CSS3 transitions, and vanilla JavaScript. 
+            Transitions seamlessly every 4.5 seconds with interactive controls, pause-on-hover, and progress tracking.
+          </p>
+        </div>
+
+        <!-- Slideshow Container -->
+        <div class="slideshow-wrapper" id="slideshowWrapper">
+          <div class="slideshow-container" id="slideshowContainer" aria-roledescription="carousel" aria-label="Cognifyz Internship Highlights Slideshow">
+            
+            <!-- Slide 1 -->
+            <div class="slide-item active" data-slide-index="0" role="group" aria-roledescription="slide" aria-label="1 of 4: Modern Web Development Workspace">
+              <img src="assets/images/slideshow/slide-1-workspace.jpg" alt="Modern web developer desk with dual monitors showing code and creative layout" class="slide-image">
+              <div class="slide-overlay">
+                <div class="slide-caption">
+                  <span class="slide-tag">Practical Environment</span>
+                  <h3 class="slide-title">Modern Web Development Workspace</h3>
+                  <p class="slide-desc">
+                    Work with industry-standard development workflows, writing clean HTML5, CSS3, and modern vanilla JavaScript.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="slide-item" data-slide-index="1" role="group" aria-roledescription="slide" aria-label="2 of 4: Collaborative Mentorship & Problem Solving">
+              <img src="assets/images/slideshow/slide-2-mentorship.jpg" alt="Professional mentors discussing code structure and web design architecture" class="slide-image">
+              <div class="slide-overlay">
+                <div class="slide-caption">
+                  <span class="slide-tag">Expert Mentorship</span>
+                  <h3 class="slide-title">Collaborative Guidance &amp; Problem Solving</h3>
+                  <p class="slide-desc">
+                    Receive expert code reviews, structural suggestions, and tips from mentors to level up your technical mindset.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="slide-item" data-slide-index="2" role="group" aria-roledescription="slide" aria-label="3 of 4: Creative UI/UX & Responsive Web Architecture">
+              <img src="assets/images/slideshow/slide-3-creative-ui.jpg" alt="Responsive user interfaces displayed on multi-device dashboard screens" class="slide-image">
+              <div class="slide-overlay">
+                <div class="slide-caption">
+                  <span class="slide-tag">Responsive Engineering</span>
+                  <h3 class="slide-title">Creative UI/UX &amp; Responsive Architecture</h3>
+                  <p class="slide-desc">
+                    Craft pixel-perfect layouts that adapt fluidly across desktop computers, tablets, and mobile smartphones.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 4 -->
+            <div class="slide-item" data-slide-index="3" role="group" aria-roledescription="slide" aria-label="4 of 4: Milestone Delivery & Career Certification">
+              <img src="assets/images/slideshow/slide-4-achievement.jpg" alt="Students celebrating internship completion with certificates and laptops" class="slide-image">
+              <div class="slide-overlay">
+                <div class="slide-caption">
+                  <span class="slide-tag">Verified Credentials</span>
+                  <h3 class="slide-title">Milestone Delivery &amp; Career Certification</h3>
+                  <p class="slide-desc">
+                    Complete all 3 levels to earn your verifiable Cognifyz Certificate of Completion and Letter of Recommendation.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slideshow Progress Bar -->
+            <div class="slideshow-progress">
+              <div class="progress-bar-fill" id="slideshowProgressBar"></div>
+            </div>
+
+            <!-- Navigation Chevrons -->
+            <button class="slide-btn prev-btn" id="prevSlideBtn" aria-label="Previous Slide">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="15 18 9 12 15 6"></polyline>
+              </svg>
+            </button>
+            <button class="slide-btn next-btn" id="nextSlideBtn" aria-label="Next Slide">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </button>
+          </div>
+
+          <!-- Slideshow Controls Bar -->
+          <div class="slideshow-controls">
+            <!-- Play/Pause Toggle -->
+            <button class="slideshow-play-pause" id="playPauseBtn" aria-label="Pause Slideshow">
+              <svg id="pauseIcon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <rect x="6" y="4" width="4" height="16"></rect>
+                <rect x="14" y="4" width="4" height="16"></rect>
+              </svg>
+              <svg id="playIcon" class="hidden" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+              </svg>
+              <span id="playPauseText">Pause Auto</span>
+            </button>
+
+            <!-- Dot Indicators -->
+            <div class="slide-dots" id="slideDots" role="tablist" aria-label="Slideshow slide selectors">
+              <button class="dot-btn active" data-index="0" role="tab" aria-selected="true" aria-label="Slide 1"></button>
+              <button class="dot-btn" data-index="1" role="tab" aria-selected="false" aria-label="Slide 2"></button>
+              <button class="dot-btn" data-index="2" role="tab" aria-selected="false" aria-label="Slide 3"></button>
+              <button class="dot-btn" data-index="3" role="tab" aria-selected="false" aria-label="Slide 4"></button>
+            </div>
+
+            <!-- Slide Counter -->
+            <div class="slide-counter" id="slideCounter" aria-live="polite">
+              Slide <span id="currentSlideNum">1</span> of 4
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TASK 1: INTERACTIVE IMAGE GALLERY ==================== -->
+    <section class="section gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag task-tag">Task 1: Image Manipulation</div>
+          <h2 class="section-title">Interactive Project Gallery</h2>
+          <p class="section-subtitle">
+            Hover over thumbnail cards to reveal smooth zoom effects and details. Click any thumbnail to enlarge 
+            and inspect the image clearly in the high-definition interactive lightbox viewer.
+          </p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="gallery-filters" id="galleryFilters" role="tablist" aria-label="Gallery category filters">
+          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Projects (6)</button>
+          <button class="filter-btn" data-filter="web-design" role="tab" aria-selected="false">Web Design</button>
+          <button class="filter-btn" data-filter="code" role="tab" aria-selected="false">Development</button>
+          <button class="filter-btn" data-filter="mobile" role="tab" aria-selected="false">Mobile &amp; UI/UX</button>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-grid" id="galleryGrid">
+          
+          <!-- Thumbnail 1 -->
+          <article class="gallery-card" data-category="web-design" data-gallery-index="0">
+            <div class="thumbnail-wrapper">
+              <img src="assets/images/gallery/web-design.jpg" alt="Modern responsive web layout showing clean typography and visual hierarchy" class="thumbnail-img" loading="lazy">
+              <div class="thumbnail-overlay">
+                <span class="gallery-badge">Web Design</span>
+                <h4 class="thumbnail-title">Responsive Web Design</h4>
+                <p class="thumbnail-caption">Designing flexible, accessible layouts optimized for modern web browsers.</p>
+                <button class="enlarge-trigger" aria-label="Enlarge Responsive Web Design image">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    <line x1="11" y1="8" x2="11" y2="14"></line>
+                    <line x1="8" y1="11" x2="14" y2="11"></line>
+                  </svg>
+                  <span>Click to Enlarge</span>
+                </button>
+              </div>
+            </div>
+            <div class="card-meta">
+              <h5>Responsive Web Design</h5>
+              <span class="meta-tag">HTML5 &bull; CSS3</span>
+            </div>
+          </article>
+
+          <!-- Thumbnail 2 -->
+          <article class="gallery-card" data-category="code" data-gallery-index="1">
+            <div class="thumbnail-wrapper">
+              <img src="assets/images/gallery/frontend-code.jpg" alt="Clean frontend code written in text editor showing semantic tags and JavaScript functions" class="thumbnail-img" loading="lazy">
+              <div class="thumbnail-overlay">
+                <span class="gallery-badge">Development</span>
+                <h4 class="thumbnail-title">Frontend Architecture</h4>
+                <p class="thumbnail-caption">Structured code conventions, modular scripts, and maintainable styles.</p>
+                <button class="enlarge-trigger" aria-label="Enlarge Frontend Architecture image">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    <line x1="11" y1="8" x2="11" y2="14"></line>
+                    <line x1="8" y1="11" x2="14" y2="11"></line>
+                  </svg>
+                  <span>Click to Enlarge</span>
+                </button>
+              </div>
+            </div>
+            <div class="card-meta">
+              <h5>Frontend Architecture</h5>
+              <span class="meta-tag">Vanilla JavaScript</span>
+            </div>
+          </article>
+
+          <!-- Thumbnail 3 -->
+          <article class="gallery-card" data-category="mobile" data-gallery-index="2">
+            <div class="thumbnail-wrapper">
+              <img src="assets/images/gallery/ui-ux-design.jpg" alt="Designer prototyping creative wireframes and color systems on desktop setup" class="thumbnail-img" loading="lazy">
+              <div class="thumbnail-overlay">
+                <span class="gallery-badge">Mobile &amp; UI/UX</span>
+                <h4 class="thumbnail-title">User Experience &amp; Wireframing</h4>
+                <p class="thumbnail-caption">Iterative wireframing, color psychology, and ergonomic UI component design.</p>
+                <button class="enlarge-trigger" aria-label="Enlarge User Experience & Wireframing image">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    <line x1="11" y1="8" x2="11" y2="14"></line>
+                    <line x1="8" y1="11" x2="14" y2="11"></line>
+                  </svg>
+                  <span>Click to Enlarge</span>
+                </button>
+              </div>
+            </div>
+            <div class="card-meta">
+              <h5>User Experience &amp; Wireframing</h5>
+              <span class="meta-tag">UI/UX &bull; CSS Grid</span>
+            </div>
+          </article>
+
+          <!-- Thumbnail 4 -->
+          <article class="gallery-card" data-category="code" data-gallery-index="3">
+            <div class="thumbnail-wrapper">
+              <img src="assets/images/gallery/team-collaboration.jpg" alt="Software engineering team collaborating together around monitor screens" class="thumbnail-img" loading="lazy">
+              <div class="thumbnail-overlay">
+                <span class="gallery-badge">Development</span>
+                <h4 class="thumbnail-title">Collaborative Engineering</h4>
+                <p class="thumbnail-caption">Working synchronously, sharing technical insights, and solving bugs together.</p>
+                <button class="enlarge-trigger" aria-label="Enlarge Collaborative Engineering image">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    <line x1="11" y1="8" x2="11" y2="14"></line>
+                    <line x1="8" y1="11" x2="14" y2="11"></line>
+                  </svg>
+                  <span>Click to Enlarge</span>
+                </button>
+              </div>
+            </div>
+            <div class="card-meta">
+              <h5>Collaborative Engineering</h5>
+              <span class="meta-tag">Teamwork &bull; Mentorship</span>
+            </div>
+          </article>
+
+          <!-- Thumbnail 5 -->
+          <article class="gallery-card" data-category="mobile" data-gallery-index="4">
+            <div class="thumbnail-wrapper">
+              <img src="assets/images/gallery/mobile-dev.jpg" alt="Smartphones showing adaptive responsive layout with fluid grid breakpoints" class="thumbnail-img" loading="lazy">
+              <div class="thumbnail-overlay">
+                <span class="gallery-badge">Mobile &amp; UI/UX</span>
+                <h4 class="thumbnail-title">Mobile-First Adaptability</h4>
+                <p class="thumbnail-caption">Fluid touch interactions, flexible viewports, and rapid mobile load times.</p>
+                <button class="enlarge-trigger" aria-label="Enlarge Mobile-First Adaptability image">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    <line x1="11" y1="8" x2="11" y2="14"></line>
+                    <line x1="8" y1="11" x2="14" y2="11"></line>
+                  </svg>
+                  <span>Click to Enlarge</span>
+                </button>
+              </div>
+            </div>
+            <div class="card-meta">
+              <h5>Mobile-First Adaptability</h5>
+              <span class="meta-tag">Media Queries &bull; Flexbox</span>
+            </div>
+          </article>
+
+          <!-- Thumbnail 6 -->
+          <article class="gallery-card" data-category="web-design" data-gallery-index="5">
+            <div class="thumbnail-wrapper">
+              <img src="assets/images/gallery/cloud-tech.jpg" alt="Modern tech infrastructure showing high-performance data systems and cloud deployment" class="thumbnail-img" loading="lazy">
+              <div class="thumbnail-overlay">
+                <span class="gallery-badge">Web Design</span>
+                <h4 class="thumbnail-title">Cloud Deployment &amp; Hosting</h4>
+                <p class="thumbnail-caption">Deploying production websites to GitHub Pages, Netlify, and modern cloud hosts.</p>
+                <button class="enlarge-trigger" aria-label="Enlarge Cloud Deployment & Hosting image">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    <line x1="11" y1="8" x2="11" y2="14"></line>
+                    <line x1="8" y1="11" x2="14" y2="11"></line>
+                  </svg>
+                  <span>Click to Enlarge</span>
+                </button>
+              </div>
+            </div>
+            <div class="card-meta">
+              <h5>Cloud Deployment &amp; Hosting</h5>
+              <span class="meta-tag">Git &bull; CI/CD Hosting</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== LIGHTBOX MODAL (TASK 1: IMAGE ENLARGEMENT) ==================== -->
+    <div class="lightbox-modal" id="lightboxModal" role="dialog" aria-modal="true" aria-label="Image Previewer" aria-hidden="true">
+      <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+      
+      <div class="lightbox-dialog">
+        <!-- Close Button -->
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close enlarged preview (Escape)">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+
+        <!-- Previous Button -->
+        <button class="lightbox-nav-btn prev" id="lightboxPrev" aria-label="Previous image (Left Arrow)">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+        </button>
+
+        <!-- Enlarged Image Container -->
+        <div class="lightbox-body">
+          <div class="lightbox-image-wrapper">
+            <img src="" alt="" class="lightbox-img" id="lightboxImg">
+            <div class="lightbox-spinner" id="lightboxSpinner"></div>
+          </div>
+
+          <!-- Enlarged Image Details -->
+          <div class="lightbox-caption-box">
+            <div class="caption-header">
+              <span class="lightbox-badge" id="lightboxBadge">Category</span>
+              <span class="lightbox-counter" id="lightboxCounter">Image 1 of 6</span>
+            </div>
+            <h3 class="lightbox-title" id="lightboxTitle">Image Title</h3>
+            <p class="lightbox-description" id="lightboxDesc">Image detailed description.</p>
+          </div>
+        </div>
+
+        <!-- Next Button -->
+        <button class="lightbox-nav-btn next" id="lightboxNext" aria-label="Next image (Right Arrow)">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- ==================== APPLICATION / CTA SECTION (TASK 2) ==================== -->
+    <section class="section apply-section" id="apply">
+      <div class="container">
+        <div class="apply-card">
+          <div class="apply-header text-center">
+            <div class="section-tag">Start Your Journey</div>
+            <h2 class="section-title">Apply for the Web Developer Internship</h2>
+            <p class="section-subtitle">
+              Ready to build real-world web skills and boost your engineering portfolio? 
+              Fill in the form below to apply for the upcoming cohort at Cognifyz Technologies.
+            </p>
+          </div>
+
+          <!-- Interactive Application Form -->
+          <form class="apply-form" id="internshipForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fullName">Full Name <span class="required">*</span></label>
+                <div class="input-wrap">
+                  <input type="text" id="fullName" name="fullName" placeholder="e.g. Alex Morgan" required autocomplete="name">
+                </div>
+                <span class="form-error" id="nameError">Please enter your full name.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address <span class="required">*</span></label>
+                <div class="input-wrap">
+                  <input type="email" id="email" name="email" placeholder="e.g. alex@example.com" required autocomplete="email">
+                </div>
+                <span class="form-error" id="emailError">Please enter a valid email address.</span>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Phone Number <span class="required">*</span></label>
+                <div class="input-wrap">
+                  <input type="tel" id="phone" name="phone" placeholder="e.g. +91 98765 43210" required autocomplete="tel">
+                </div>
+                <span class="form-error" id="phoneError">Please enter a valid contact number.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="college">College / University <span class="required">*</span></label>
+                <div class="input-wrap">
+                  <input type="text" id="college" name="college" placeholder="e.g. National Institute of Technology" required>
+                </div>
+                <span class="form-error" id="collegeError">Please provide your institution name.</span>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="track">Internship Domain <span class="required">*</span></label>
+                <select id="track" name="track" required>
+                  <option value="frontend" selected>Web Development (HTML, CSS, JavaScript)</option>
+                  <option value="fullstack">Full Stack Web Development</option>
+                  <option value="uiux">UI/UX Design &amp; Web Prototyping</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="portfolio">GitHub or Portfolio URL</label>
+                <div class="input-wrap">
+                  <input type="url" id="portfolio" name="portfolio" placeholder="https://github.com/username">
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group full-width">
+              <label for="statement">Why do you want to join Cognifyz Technologies? <span class="required">*</span></label>
+              <textarea id="statement" name="statement" rows="4" placeholder="Briefly describe your interest in web development, what projects you've created, and what you aim to achieve during this 4-week internship..." required></textarea>
+              <span class="form-error" id="statementError">Please write at least 20 characters explaining your interest.</span>
+            </div>
+
+            <div class="form-agreement">
+              <label class="checkbox-container">
+                <input type="checkbox" id="agreement" name="agreement" required>
+                <span class="checkmark"></span>
+                <span>I confirm that the details provided are accurate and I am committed to completing all internship tasks on time.</span>
+              </label>
+              <span class="form-error" id="agreeError">You must agree before submitting.</span>
+            </div>
+
+            <div class="form-actions text-center">
+              <button type="submit" class="btn btn-primary btn-xl" id="submitBtn">
+                <span class="btn-text">Submit Internship Application</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+            </div>
+          </form>
+
+          <!-- Success Confirmation Modal -->
+          <div class="form-success-box hidden" id="formSuccessBox">
+            <div class="success-icon-wrap">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+              </svg>
+            </div>
+            <h3 class="success-title">Application Submitted Successfully!</h3>
+            <p class="success-msg">
+              Thank you, <strong id="successApplicantName">Applicant</strong>! Your application for the 
+              <strong>Web Developer Internship</strong> at Cognifyz Technologies has been received.
+            </p>
+            <div class="app-reference">
+              <span>Application Reference:</span>
+              <code id="appRefCode">COG-WEB-2026-XXXX</code>
+            </div>
+            <p class="success-sub">
+              Our team will review your profile and reach out via email within 48-72 business hours with further instructions and onboarding material.
+            </p>
+            <button class="btn btn-secondary" id="resetFormBtn">Submit Another Application</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER & CONTACT (TASK 2) ==================== -->
+  <footer class="site-footer" id="contact">
+    <div class="container footer-container">
+      <div class="footer-top">
+        
+        <!-- Brand Info -->
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="assets/images/cognifyz-logo-dark.png" alt="Cognifyz - Where Data Meets Intelligence" class="footer-logo-img">
+          </div>
+          <p class="footer-about">
+            Cognifyz Technologies is a technology company delivering software solutions, talent enhancement, 
+            and hands-on virtual internship programs designed to equip future engineers with market-ready skills.
+          </p>
+          <div class="footer-socials">
+            <a href="https://linkedin.com/company/cognifyz-technologies" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Cognifyz LinkedIn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+            </a>
+            <a href="https://cognifyz.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Cognifyz Official Website">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub Repository">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#overview">Program Overview</a></li>
+            <li><a href="#highlights">Key Highlights</a></li>
+            <li><a href="#qualifications">Qualifications</a></li>
+            <li><a href="#slideshow">Automatic Slideshow</a></li>
+            <li><a href="#gallery">Interactive Gallery</a></li>
+          </ul>
+        </div>
+
+        <!-- Internship Levels -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Internship Tracks</h4>
+          <ul class="footer-links">
+            <li><a href="#overview">Level 1: Web Foundations</a></li>
+            <li><a href="#overview">Level 2: Interactive UI &amp; Forms</a></li>
+            <li><a href="#overview">Level 3: Image Manipulation &amp; Showcase</a></li>
+            <li><a href="#apply">Apply for Cohort 2026</a></li>
+            <li><a href="#qualifications">Skills Verification</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Information (Required by Task 2) -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Contact Information</h4>
+          <ul class="footer-contact-list">
+            <li>
+              <div class="contact-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div>
+                <span class="contact-label">Email Support:</span>
+                <a href="mailto:contact@cognifyz.com" class="contact-val">contact@cognifyz.com</a>
+              </div>
+            </li>
+            <li>
+              <div class="contact-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                </svg>
+              </div>
+              <div>
+                <span class="contact-label">Official Website:</span>
+                <a href="https://cognifyz.com" target="_blank" rel="noopener noreferrer" class="contact-val">www.cognifyz.com</a>
+              </div>
+            </li>
+            <li>
+              <div class="contact-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div>
+                <span class="contact-label">Headquarters:</span>
+                <span class="contact-val">Nagpur, Maharashtra, India</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; 2026 <strong>Cognifyz Technologies</strong>. All rights reserved. 
+          Developed for Cognifyz Web Development Internship &ndash; Level 3 Tasks.
+        </p>
+        <div class="footer-bottom-links">
+          <span>HTML5 &bull; CSS3 &bull; Vanilla JavaScript</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top of page">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
